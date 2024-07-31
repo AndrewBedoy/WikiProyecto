@@ -1,0 +1,23 @@
+.navbar-brand{
+    margin-left: 10px;
+}
+
+.barra{
+    margin-left: 650px
+}
+
+.hover-bold {
+    transition: font-weight 0.3s;
+  }
+  
+  .hover-bold:hover {
+    font-weight: bold;
+  }
+
+  .nav-link{
+    font-size: larger;
+  }
+
+  #logo{
+    margin-left: 100px;
+  }

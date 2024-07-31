@@ -1,0 +1,20 @@
+<div class="container mt-4">
+    <h1 class="titulo">Paises del continente Americano</h1>
+    <br>
+    <div class="row">
+      <div *ngFor="let country of data" class="col-md-4 mb-4">
+        <div class="card">
+          <img src="{{ country.flags.png }}" class="card-img-top" alt="{{ country.name.common }}">
+          <div class="card-body">
+            <h5 class="card-title">{{ country.name.common }}</h5>
+            <p class="card-text"><strong>Capital:</strong> {{ country.capital[0] }}</p>
+            <p class="card-text"><strong>Region:</strong> {{ country.region }}</p>
+            <p class="card-text"><strong>Population:</strong> {{ country.population | number }}</p>
+            <button class="btn btn-primary" (click)="viewCountryDetails(country)">Mas detalles</button>
+          </div>
+        </div>
+      </div>
+    </div>
+   
+  </div>
+  

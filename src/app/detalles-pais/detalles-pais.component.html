@@ -1,0 +1,23 @@
+<div class="container mt-5">
+    <h2 class="text-center" id="nombre">{{ country?.name?.common }}</h2>
+    <div *ngIf="country" class="country-details text-center">
+      <img [src]="country.flags?.png" alt="Flag of {{ country.name.common }}" class="img-fluid mb-3">
+      <h4><strong>Nombre oficial:</strong> {{ country.name.official }}</h4>
+      <p><strong>Capital:</strong> {{ country.capital[0] }}</p>
+      <p><strong>Region:</strong> {{ country.region }}</p>
+      <p><strong>Subregion:</strong> {{ country.subregion }}</p>
+      <p><strong>Population:</strong> {{ country.population | number }}</p>
+      <div *ngIf="country.languages" class="languages">
+        <strong>Lenguajes</strong>
+        <ul>
+          <li *ngFor="let language of getLanguages(country.languages)">
+            {{ language }}
+          </li>
+        </ul>
+      </div>
+      <p><strong>Horario:</strong> {{ country.timezones }}</p>
+      <p><strong>Area:</strong> {{ country.area | number }} km²</p>
+      <a [href]="country.maps.googleMaps" target="_blank" class="btn btn-primary mt-3">View on Google Maps</a>
+    </div>
+    <br><br>
+  </div>

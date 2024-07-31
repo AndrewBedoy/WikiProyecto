@@ -1,0 +1,121 @@
+
+.banner {
+  z-index: -1;
+  background-image:
+  url("../../assets/img/fondo.jpg");
+  background-size:contain;
+  background-position: center;
+  color: #fff;
+  padding: 180px 20px;
+  text-align: center;
+  position: relative; /* Agregamos posición relativa al contenedor del banner */
+}
+
+.banner h1 {
+    margin-top: 0;
+    color: rgb(62, 62, 231);
+    font-weight: bold;
+  }
+
+  .banner h2, h4{
+    color: black;
+  }
+  
+  .banner p {
+    margin-bottom: 0;
+    color: rgb(255, 255, 255);
+  }
+
+  .jumbotron {
+    
+    color: black;
+    padding: 2rem 1rem;
+    border-radius: 0.5rem;
+    text-align: center;
+  }
+  
+  .jumbotron h3 {
+    font-size: 2.5rem; /* Tamaño de fuente grande */
+    font-weight: bold;
+    color: #112b47;
+  }
+  
+  .jumbotron p {
+    font-size: 1.25rem; /* Tamaño de fuente ligeramente más grande */
+    margin: 1rem 0;
+  }
+  
+  services-section {
+    padding: 2rem;
+    background: #f8f9fa; /* Fondo claro para destacar la sección */
+    border-radius: 0.5rem;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Sombra sutil para dar profundidad */
+    
+  }
+
+  .display-4{
+    
+    color: #112b47;
+  }
+  
+  .services-section h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #112b47; /* Color atractivo para el encabezado */
+  }
+  
+  .services-section p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #333; /* Color de texto oscuro para mejor legibilidad */
+    margin-bottom: 1rem;
+  }
+  
+ .container{
+    text-align: center;
+ }
+
+ .card{
+   height: 400px;
+   font-weight: bold;
+ }
+
+ .display-4{
+    margin-top: 30px;
+ }
+  
+ /* Estilo para las imágenes del carrusel */
+.carousel-inner img {
+    width: 200px;
+    height: 450px;
+    object-fit:contain; /* Ajusta la imagen para que cubra el área del carrusel */
+  }
+  
+  /* Estilo para los botones de control del carrusel */
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-color: black; /* Color negro para los botones de control */
+    border-radius: 50%; /* Botones redondeados */
+    padding: 10px; /* Espaciado interno para hacer los botones más grandes */
+  }
+  
+  .carousel-control-prev-icon:hover,
+  .carousel-control-next-icon:hover {
+    background-color: rgba(0, 0, 0, 0.8); /* Color ligeramente transparente al pasar el mouse */
+  }
+  
+  /* Estilo para los indicadores del carrusel */
+  .carousel-indicators button {
+    background-color: black; /* Color negro para los indicadores */
+  }
+  
+  .carousel-indicators .active {
+    background-color: #ffffff; /* Color blanco para el indicador activo */
+  }
+  
+  /* Opcional: espaciado adicional entre las imágenes y el borde del carrusel */
+  .carousel-item {
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  

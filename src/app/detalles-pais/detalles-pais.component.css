@@ -1,0 +1,40 @@
+.country-details {
+   
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #f8f9fa; /* Light background for contrast */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+  }
+  
+  .country-details img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .country-details p {
+    margin-bottom: 10px;
+    font-size: 1rem;
+  }
+  
+  .country-details a {
+    display: inline-block;
+    background-color: #007bff; /* Primary button color */
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+  }
+  
+  .country-details a:hover {
+    background-color: #0056b3; /* Darker shade for hover effect */
+  }
+  
+  #nombre{
+    color: #112b47;
+  }
+
+
+  

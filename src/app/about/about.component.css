@@ -1,0 +1,45 @@
+#main {
+    font-family: 'Arial', sans-serif;
+}
+
+.display-4 {
+    font-weight: bold;
+    color: #112b47; /* Primary color */
+}
+
+.lead {
+    font-size: 1.25rem;
+    color: #333;
+    text-align: justify;
+}
+
+.rounded-image {
+    border-radius: 15px;
+}
+
+img {
+    margin-bottom: 20px;
+}
+
+p {
+    text-align: justify;
+}
+
+.align-items-center {
+    align-items: center !important;
+}
+
+.unete {
+    background-color: #f8f9fa;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.fin{
+    text-align: center;
+    font-weight: bold;
+}
+
+.equipo{
+    border-radius: 15px;
+}
